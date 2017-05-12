@@ -22,7 +22,7 @@ unsigned long left(unsigned long num, unsigned ct){
   if(ct==0 || num == 0){
     return 0;
   }
-  while(n/10)
+  while(n/=10)
     digits++;
   if(digits>ct){
     ct=digits-ct;
